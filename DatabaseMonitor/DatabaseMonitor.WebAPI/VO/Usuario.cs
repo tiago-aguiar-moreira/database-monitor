@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace DatabaseMonitor.WebAPI.Model
+namespace DatabaseMonitor.WebAPI.VO
 {
     public class Usuario
     {
@@ -9,7 +12,6 @@ namespace DatabaseMonitor.WebAPI.Model
         public string Email { get; set; }
         public bool Ativo { get; set; }
         public DateTime Criacao { get; set; }
-        public string Senha { get; set; }
         public string Perfil { get; set; }
     }
 }
