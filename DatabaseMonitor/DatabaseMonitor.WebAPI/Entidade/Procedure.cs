@@ -1,4 +1,4 @@
-﻿namespace DatabaseMonitor.WebAPI.Model
+﻿namespace DatabaseMonitor.WebAPI.Entidade
 {
     public class Procedure
     {
